@@ -1,0 +1,157 @@
+/* *{ border: solid 1px red; } */
+
+@font-face {
+  font-family: SF Pro Rounded;
+  src: url(fonts/SF-Pro-Rounded-bold.otf);
+}
+
+body {
+  font-family: SF Pro Rounded, Lucida Sans Unicode, sans-serif; 
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  position: relative;
+  background: linear-gradient(101.91deg, #B36DB9 13.47%, #7758F2 88.17%);
+  box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.5);
+  /* background: linear-gradient(45deg, #B36DB9, #7758F2); */
+  border-radius: 100px;
+  /* box-shadow: 0px 10px 40px gray; */
+  margin-left: 25px;
+  margin-right: 25px;
+  margin-top: 15px;
+  min-height: 100px;
+  min-width: 700px;
+}
+
+.logo {
+  height: 100px;
+  display: block;
+  position: absolute;
+  top: 50%;
+  margin-top: -40px;
+  float: left;
+  margin-left: 15px;
+  margin-right: 1000px;
+}
+
+.nav-list {
+  float: right;
+  margin-left: 290px;
+  text-transform: uppercase;
+  font-size: 25px;
+  color: #FFFFFF;
+  margin-top: 28px;
+
+}
+
+.nav-list li {
+  display: inline;
+  margin-right:45px;
+  margin-left: 20px;
+  list-style: none;
+  white-space: nowrap;
+}
+
+.nav-list a {
+  text-decoration: none;
+  color:white;
+  line-height: 40px;
+}
+
+.promo p {
+  margin: 70px 70px 0 70px;
+  font-family: SF Pro Rounded;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 50px;
+  line-height: 84px;
+
+  text-align: center;
+
+  color: #422F8E;
+}
+.active a {
+  position: relative;
+  z-index: 1;
+}
+
+.active-block {
+  position: absolute;
+  top: 25px;
+  width: 214px;
+  height: 45px;
+  border-radius: 30px;
+  background: rgba(255, 255, 255, 0.274);
+}
+.nav-list a:hover {
+  color: rgb(55, 39, 117);
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.main-block {
+  margin-right: 60px;
+  margin-left: 60px;
+  margin-top: 50px;
+  min-width: 550px;
+
+  
+  background: #FFFFFF;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.15);
+  border-radius: 40px;
+  padding: 1px 50px 50px 50px;
+}
+.main-block h2 {
+  text-transform: uppercase;
+  font-family: SF Pro Rounded;
+  font-size: 40px;
+  color: #422F8E;
+}
+
+.list-videolessons a {
+  line-height: 30px;
+  text-decoration: none;
+
+}
+
+.rounded {
+  counter-reset: li; 
+  list-style: none; 
+  padding: 10px;
+  }
+  
+  .rounded a {
+  position: relative;
+  display: block;
+  padding: .4em .4em .4em 2em;
+  margin: .5em 0;
+  color: rgb(72, 13, 80);
+  text-decoration: none;
+  transition: .3s ease-out;
+  }
+  
+  .rounded a:hover {
+    color: rgb(75, 75, 170);
+  }
+  .rounded a:before {
+  content: counter(li);
+  counter-increment: li;
+  position: absolute;
+  left: -1.3em;
+  top: 50%;
+  margin-top: -1.3em;
+  background: rgb(235, 232, 232);
+  height: 2em;
+  width: 2em;
+  line-height: 2em;
+  border: .3em solid white;
+  text-align: center;
+  border-radius: 2em;
+  transition: all .3s ease-out;
+  }
