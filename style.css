@@ -2,7 +2,8 @@
 
 @font-face {
   font-family: SF Pro Rounded;
-  src:local("SF Pro Rounded"),
+  src:local("SF Pro Rounded")
+  src:local("SF-Pro-Rounded"),
     url(font/SF-Pro-Rounded-bold.otf);
 }
 
@@ -38,6 +39,7 @@ body {
 }
 
 .nav-list {
+  font-family: SF Pro Rounded;
   float: right;
   margin-left: 290px;
   text-transform: uppercase;
