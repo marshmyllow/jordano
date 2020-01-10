@@ -2,9 +2,9 @@
 
 @font-face {
   font-family: SF Pro Rounded;
-  src:local("SF Pro Rounded"),
-  src:local("SF-Pro-Rounded"),
-    url(font/SF-Pro-Rounded-bold.otf);
+  src:local("SF Pro Rounded");
+    url("../font/SF-Pro-Rounded-bold.otf") format ("otf");
+  src: url("../font/SF-Pro-Rounded-bold.otf") format ("otf");
 }
 
 body {
