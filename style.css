@@ -1,7 +1,7 @@
 /* *{ border: solid 1px red; } */
 
 @font-face {
-    font-family: 'sf_pro_roundedbold';
+    font-family: 'SF Pro Rounded Bold';
     src: url('sfprorounded-bold.woff2') format('woff2'),
          url('sfprorounded-bold.woff') format('woff');
     font-weight: normal;
