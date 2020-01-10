@@ -45,7 +45,6 @@ body {
   float: right;
   margin-left: 290px;
   text-transform: uppercase;
-  font-weight: bold;
   font-size: 25px;
   color: #FFFFFF;
   margin-top: 28px;
@@ -70,7 +69,6 @@ body {
   margin: 70px 70px 0 70px;
   font-family: SF Pro Rounded Bold;
   font-style: normal;
-  font-weight: bold;
   font-size: 50px;
   line-height: 84px;
 
@@ -115,7 +113,7 @@ body {
 }
 .main-block h2 {
   text-transform: uppercase;
-  font-family: SF Pro Rounded;
+  font-family: SF Pro Rounded Bold;
   font-size: 40px;
   color: #422F8E;
 }
