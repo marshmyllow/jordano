@@ -10,7 +10,7 @@
 }
 
 body {
-  font-family: SF Pro Rounded; 
+  font-family: SF Pro Rounded Bold; 
   margin: 0;
   padding: 0;
 }
@@ -41,7 +41,7 @@ body {
 }
 
 .nav-list {
-  font-family: SF Pro Rounded;
+  font-family: SF Pro Rounded Bold;
   float: right;
   margin-left: 290px;
   text-transform: uppercase;
@@ -68,7 +68,7 @@ body {
 
 .promo p {
   margin: 70px 70px 0 70px;
-  font-family: SF Pro Rounded;
+  font-family: SF Pro Rounded Bold;
   font-style: normal;
   font-weight: bold;
   font-size: 50px;
