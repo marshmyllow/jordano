@@ -1,13 +1,12 @@
 /* *{ border: solid 1px red; } */
 
 @font-face {
-  font-family: 'SF Pro Rounded';
-  src:local("SF Pro Rounded");
-    url("../font/SFProRounded-bold.otf") format ("otf"),
-  src: url("../font/SFProRounded-bold.otf") format ("otf");
-  font-weight: 400;
-  font-style: normal;
-  font-display: wrap;
+    font-family: 'sf_pro_roundedbold';
+    src: url('sfprorounded-bold.woff2') format('woff2'),
+         url('sfprorounded-bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: wrap;
 }
 
 body {
