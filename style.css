@@ -2,8 +2,8 @@
 
 @font-face {
     font-family: 'SF Pro Rounded Bold';
-    src: url('sfprorounded-bold.woff2') format('woff2'),
-         url('sfprorounded-bold.woff') format('woff');
+    src: url('font/sfprorounded-bold.woff2') format('woff2'),
+         url('font/sfprorounded-bold.woff') format('woff');
     font-weight: normal;
     font-style: normal;
     font-display: wrap;
