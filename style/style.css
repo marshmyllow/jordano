@@ -2,15 +2,15 @@
 
 @font-face {
     font-family: 'SF Pro Rounded Bold';
-    src: url('sfprorounded-bold.woff2') format('woff2'),
-         url('sfprorounded-bold.woff') format('woff');
+    src: url('font/sfprorounded-bold.woff2') format('woff2'),
+         url('font/sfprorounded-bold.woff') format('woff');
     font-weight: normal;
     font-style: normal;
     font-display: wrap;
 }
 
 body {
-  font-family: SF Pro Rounded Bold; 
+  font-family: 'Lora', sans-serif;
   margin: 0;
   padding: 0;
 }
@@ -65,17 +65,57 @@ body {
   line-height: 40px;
 }
 
-.promo p {
-  margin: 70px 70px 0 70px;
-  font-family: SF Pro Rounded Bold;
-  font-style: normal;
-  font-size: 50px;
+.promo {
+  float: left;
+}
+
+.sovet {
+  float: left;
+}
+
+.promo h1 {
+  margin: 80px 0 0 70px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800;
+  font-size: 60px;
   line-height: 84px;
-
-  text-align: center;
-
   color: #422F8E;
 }
+
+.promo p {
+  font-family: 'Lora', sans-serif;
+  font-weight: 400;
+  color: rgb(48, 34, 105);
+  font-size: 27px;
+  margin: 40px 0 -120px 70px;
+  max-width: 1000px;
+}
+
+.sovet p {
+  
+  font-family: 'Montserrat', sans-serif;
+  margin: 176px 0 0 70px;
+  font-weight: 800;
+  font-size: 30px;
+  line-height: 84px;
+  color: rgb(163, 163, 163);
+
+}
+
+.sovet h2 {
+  margin: 10px 0 0 70px;
+  font-family: 'Lora', sans-serif;
+  font-weight: 800;
+  font-size: 45px;
+  color: rgb(81, 65, 145);
+}
+
+
+/* В И Д Е О У Р О К И */
+.container {
+  text-align: center;
+}
+
 .active a {
   position: relative;
   z-index: 1;
@@ -89,6 +129,7 @@ body {
   border-radius: 30px;
   background: rgba(255, 255, 255, 0.274);
 }
+
 .nav-list a:hover {
   color: rgb(55, 39, 117);
 }
@@ -104,58 +145,56 @@ body {
   margin-left: 60px;
   margin-top: 50px;
   min-width: 550px;
-
-  
   background: #FFFFFF;
   box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.15);
   border-radius: 40px;
   padding: 1px 50px 50px 50px;
 }
+
 .main-block h2 {
   text-transform: uppercase;
   font-family: SF Pro Rounded Bold;
-  font-size: 40px;
+  font-size: 50px;
   color: #422F8E;
+  margin-bottom: 60px;
 }
 
-.list-videolessons a {
-  line-height: 30px;
-  text-decoration: none;
-
-}
-
-.rounded {
-  counter-reset: li; 
-  list-style: none; 
-  padding: 10px;
-  }
-  
-  .rounded a {
+.content-block {
+  /* border-radius: 20px; */
   position: relative;
-  display: block;
-  padding: .4em .4em .4em 2em;
-  margin: .5em 0;
-  color: rgb(72, 13, 80);
-  text-decoration: none;
-  transition: .3s ease-out;
-  }
-  
-  .rounded a:hover {
-    color: rgb(75, 75, 170);
-  }
-  .rounded a:before {
-  content: counter(li);
-  counter-increment: li;
+  margin: 10px;
+  width: 350px;
+  height: 300px;
+  background-color: rgb(116, 92, 126);
+  display : inline-block;
+  vertical-align: top;
+  line-height: normal;
+}
+
+.name h3 {
+  font-family: SF Pro Rounded Bold;
+  font-size: 20px;
+  color: white;  
   position: absolute;
-  left: -1.3em;
-  top: 50%;
-  margin-top: -1.3em;
-  background: rgb(235, 232, 232);
-  height: 2em;
-  width: 2em;
-  line-height: 2em;
-  border: .3em solid white;
-  text-align: center;
-  border-radius: 2em;
-  transition: all .3s ease-out;
-  }
+  bottom: 0px;
+  left: 20px;
+  text-align: right;
+  padding-right: 20px;
+  background-color: rgba(255, 255, 255, 0.185);
+}
+
+.data {
+  font-family: SF Pro Rounded Bold;
+  font-size: 15x;
+  color: white;  
+  float: left;
+  margin: 20px;
+}
+
+.author {
+  font-family: SF Pro Rounded Bold;
+  font-size: 15x;
+  color: white;  
+  float: right;
+  margin: 20px;
+}
