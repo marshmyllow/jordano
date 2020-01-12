@@ -161,7 +161,7 @@ body {
 }
 
 .content-block {
-  /* border-radius: 20px; */
+  border-radius: 20px;
   position: relative;
   margin: 10px;
   width: 350px;
@@ -180,7 +180,9 @@ body {
   bottom: 0px;
   left: 20px;
   text-align: left;
-  padding-right: 20px;
+  padding-left: 20px;
+  padding-right: 10px;
+  margin-left: -20px;
   background-color: rgba(255, 255, 255, 0.185);
 }
 
