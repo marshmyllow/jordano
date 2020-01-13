@@ -10,157 +10,174 @@
 }
 
 body {
-font-family: 'Lora', sans-serif;
-margin: 0;
-padding: 0;
+  font-family: 'Lora', sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
 .header {
-position: relative;
-background: linear-gradient(101.91deg, #B36DB9 13.47%, #7758F2 88.17%);
-box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.5);
-/* background: linear-gradient(45deg, #B36DB9, #7758F2); */
-border-radius: 100px;
-/* box-shadow: 0px 10px 40px gray; */
-margin-left: 25px;
-margin-right: 25px;
-margin-top: 15px;
-min-height: 100px;
-min-width: 700px;
+  position: relative;
+  background: linear-gradient(101.91deg, #B36DB9 13.47%, #7758F2 88.17%);
+  box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.5);
+  /* background: linear-gradient(45deg, #B36DB9, #7758F2); */
+  border-radius: 100px;
+  /* box-shadow: 0px 10px 40px gray; */
+  margin-left: 25px;
+  margin-right: 25px;
+  margin-top: 15px;
+  min-width: 700px;
+  padding-right: 15px;
 }
 
 .logo {
-height: 100px;
-display: block;
-position: absolute;
-top: 50%;
-margin-top: -40px;
-float: left;
-margin-left: 15px;
-margin-right: 1000px;
+  height: 100px;
+  display: block;
+  position: absolute;
+  top: 50%;
+  margin-top: -30px;
+  float: left;
+  margin-left: 15px;
+  margin-right: 1000px;
 }
 
 .nav-list {
-font-family: SF Pro Rounded Bold;
-float: right;
-margin-left: 290px;
-text-transform: uppercase;
-font-size: 25px;
-color: #FFFFFF;
-margin-top: 28px;
+  font-family: SF Pro Rounded Bold;
+  float: right;
+  margin-left: 290px;
+  text-transform: uppercase;
+  font-size: 20px;
+  color: #FFFFFF;
+  margin-top: 20px;
 
 }
 
 .nav-list li {
-display: inline;
-margin-right:45px;
-margin-left: 20px;
-list-style: none;
-white-space: nowrap;
+  display: inline;
+  margin-right:20px;
+  margin-left: 20px;
+  list-style: none;
+  white-space: nowrap;
 }
 
+/* .nav-list .li3 {
+  margin-right:90px;
+} */
+
 .nav-list a {
-text-decoration: none;
-color:white;
-line-height: 40px;
+  text-decoration: none;
+  color:white;
+  line-height: 40px;
 }
 
 .promo {
-float: left;
+  float: left;
 }
 
-.sovet {
-float: left;
+.advice {
+  float: left;
 }
 
 .promo h1 {
-margin: 80px 0 0 70px;
-font-family: 'Montserrat', sans-serif;
-font-weight: 800;
-font-size: 60px;
-line-height: 84px;
-color: #422F8E;
+  margin: 50px 0 0 70px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800;
+  font-size: 55px;
+  line-height: 84px;
+  color: #422F8E;
 }
 
 .promo p {
-font-family: 'Lora', sans-serif;
-font-weight: 400;
-color: rgb(48, 34, 105);
-font-size: 27px;
-margin: 40px 20px -120px 70px;
-max-width: 1000px;
+  font-family: 'Lora', sans-serif;
+  font-weight: 400;
+  color: rgb(48, 34, 105);
+  font-size: 27px;
+  margin: 40px 60px -120px 70px;
+  max-width: 1000px;
 }
 
-.sovet p {
-
-font-family: 'Montserrat', sans-serif;
-margin: 176px 0 0 70px;
-font-weight: 800;
-font-size: 30px;
-line-height: 84px;
-color: rgb(163, 163, 163);
-
+.advice h4 {
+  font-family: 'Montserrat', sans-serif;
+  margin: 176px 0 0 70px;
+  font-weight: 800;
+  font-size: 30px;
+  line-height: 84px;
+  color: rgb(163, 163, 163);
 }
 
-.sovet h2 {
-margin: 10px 0 100px 70px;
-font-family: 'Lora', sans-serif;
-font-weight: 800;
-font-size: 45px;
-color: rgb(81, 65, 145);
+.advice p {
+  margin: 10px 0 100px 70px;
+  font-family: 'Lora', sans-serif;
+  font-weight: 800;
+  font-size: 40px;
+  color: rgb(81, 65, 145);
 }
 
+/* W  I  K  I */
+.active-wiki a {
+  position: relative;
+  z-index: 1;
+}
+
+.active-block-wiki {
+  position: absolute;
+  top: 19px;
+  width: 85px;
+  height: 40px;
+  border-radius: 30px;
+  background: rgba(255, 255, 255, 0.274);
+}
 
 /* В И Д Е О У Р О К И */
 
 
 .container {
-text-align: center;
+  text-align: center;
 }
 
 .active a {
-position: relative;
-z-index: 1;
+  position: relative;
+  z-index: 1;
 }
 
 .active-block {
-position: absolute;
-top: 25px;
-width: 214px;
-height: 45px;
-border-radius: 30px;
-background: rgba(255, 255, 255, 0.274);
+  position: absolute;
+  top: 19px;
+  margin-left: 87px;
+  width: 180px;
+  height: 40px;
+  border-radius: 30px;
+  background: rgba(255, 255, 255, 0.274);
 }
 
 .nav-list a:hover {
-color: rgb(55, 39, 117);
+  color: rgb(55, 39, 117);
 }
 
 .clearfix::after {
-content: "";
-display: table;
-clear: both;
+  content: "";
+  display: table;
+  clear: both;
 }
 
 .main-block {
   position: relative;
-margin-right: 60px;
-margin-left: 60px;
-margin-top: 50px;
-margin-bottom: 60px;
-min-width: 600px;
-background: #FFFFFF;
-box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.15);
-border-radius: 40px;
-padding: 1px 50px 50px 50px;
+  margin-right: 60px;
+  margin-left: 60px;
+  margin-top: 50px;
+  margin-bottom: 60px;
+  min-width: 600px;
+  background: #FFFFFF;
+  /* box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.15); */
+  border-radius: 40px;
+  padding: 1px 50px 50px 50px;
 }
 
-.main-block h2 {
-font-family: 'Montserrat', sans-serif;
-font-weight: 800;
-font-size: 50px;
-color: #422F8E;
-margin: 20px 0px 60px -10px;
+.main-block h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800;
+  font-size: 50px;
+  color: #422F8E;
+  margin: 20px 0px 60px -10px;
 }
 
 /* при сворачивании в минимум по ширине - заезжает  */
