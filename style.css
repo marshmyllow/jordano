@@ -9,10 +9,22 @@
   font-display: wrap;
 }
 
+@media screen and (min-width: 1800px) {
+  .promo {
+    font-size: 1.5em;
+    max-width: 90%;
+
+  }
+  .advice {
+    font-size: 1.25em;
+  }
+}
+
 body {
   font-family: 'Lora', sans-serif;
   margin: 0;
   padding: 0;
+  font-size: 20px;
 }
 
 a {
@@ -52,7 +64,6 @@ a {
   font-size: 20px;
   color: #FFFFFF;
   margin-top: 20px;
-
 }
 
 .nav-list li {
@@ -75,7 +86,7 @@ a {
 
 .promo {
   float: left;
-  max-width: 800px;
+  max-width: 55%;
 }
 
 .advice {
@@ -85,22 +96,20 @@ a {
 
 .promo h1 {
   display: block;
-  max-width: 900px;
   margin: 50px 0px 0px 70px;
   font-family: 'Montserrat', sans-serif;
   font-weight: 800;
-  font-size: 40px;
-  line-height: 55px;
+  font-size: 2em;
+  line-height: 1.4em;
   color: #422F8E;
 }
 
 .promo p {
   display: block;
-  max-width: 900px;
   font-family: 'Lora', sans-serif;
   font-weight: 400;
   color: rgb(48, 34, 105);
-  font-size: 20px;
+  font-size: 1.25em;
   margin: 30px 70px 10px 70px;
 }
 
@@ -108,9 +117,9 @@ a {
   display: block;
   max-width: 400px;
   font-family: 'Montserrat', sans-serif;
-  margin: 60px 0 0 70px;
+  margin: 70px 0 0 70px;
   font-weight: 800;
-  font-size: 20px;
+  font-size: 1.25em;
   line-height: 30px;
   color: rgb(163, 163, 163);
 }
@@ -121,7 +130,7 @@ a {
   margin: 10px 70px 20px 70px;
   font-family: 'Lora', sans-serif;
   font-weight: 800;
-  font-size: 25px;
+  font-size: 1.5em;
   color: rgb(81, 65, 145);
 }
 
@@ -146,7 +155,7 @@ a {
   max-width: 400px;
   margin: -10px 0px 0px 70px;
   font-family: 'Lora', sans-serif;
-  font-size: 15px;
+  font-size: 1em;
   color: rgb(104, 104, 104);
 }
 
@@ -271,17 +280,15 @@ a {
   color: white;  
   text-align: left;
   margin: 70px 30px 40px 20px;
-
-
-
 }
+
 .author {
   font-family: SF Pro Rounded Bold;
   color: white;  
   font-size: 22px;
   float: left;
   margin: 10px 20px 0px 15px;
-  }
+}
 
 .data {
   font-family: SF Pro Rounded Bold;
@@ -289,4 +296,10 @@ a {
   color: white;  
   float: left;
   margin: 10px 0px 10px 40px;
+}
+
+@media screen and (max-width: 1100px) { 
+  .promo {
+    max-width: 95%;
+  }
 }
