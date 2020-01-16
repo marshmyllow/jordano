@@ -191,59 +191,118 @@ h2 {
   color: rgb(13, 3, 49);
 }
 
-/* T  A  B  L  E */
+/* T  A  B  L  E */       /* T  A  B  L  E */
 
-.main-block-wiki {
-  border: 3px solid rgb(187, 224, 255);
-  border-radius: 40px;
-  position: relative;
-  margin-right: 100px;
-  margin-left: 100px;
-  margin-top: 150px;
+.name-article a {
+  color: rgb(65, 44, 139);
+}
+
+.author-article a {
+  color: #5c5c5c;
+}
+
+.main-block-articles {
+  display: block;
+  margin-top: 120px;
   margin-bottom: 60px;
-  min-width: 600px;
-  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.15);
+  /* max-width: 1800px; */
+  /* background-color: rgba(248, 248, 248, 0.76); */
+  /* box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.15); */
   padding-top: 22px;
   padding-bottom: 22px;
 }
 
-table {
-  width: 100%; /* Ширина таблицы */
-  border-collapse: collapse; /* Убираем двойные рамки */
- }
- 
- th, td {
-  border-bottom: 3px solid rgb(187, 224, 255); /* Параметры рамки */
-  padding: 10px; /* Поля в ячейках */
- }
+.articles-table {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  max-width: 1600px;
+  font-family: 'Montserrat';
+  font-size: 0.7em;
+  font-weight: bold;
+}
 
- tr:hover { 
-  background: rgb(187, 224, 255); /* Цвет фона */
-  border-bottom: 3px solid rgb(187, 224, 255);
-  border-radius: 30px;
- }
+.table-row {
+  border-bottom: 1px solid rgb(232, 245, 253);
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  max-width: 1200px;
+  padding-bottom: 5px;
+  padding-top: 5px;
+}
 
 .name-article {
-  padding: 15px 30px 17px 30px;
-  border-bottom: 3px solid rgb(187, 224, 255);
-  width: 600px;
-  font-family: verdana;
-  font-size: 0.85em;
-  color: rgb(48, 34, 105);
-  font-weight: bold;
+  display: flex;
+  width: 900px;
+  padding: 10px;
+  padding-left: 20px;
 }
 
 .data-article {
-  padding: 15px 300px 17px 20px;
-  border-bottom: 3px solid rgb(187, 224, 255);
-  width: 10px;
-  font-family: verdana;
-  font-size: 0.7em;
-  color: rgb(48, 34, 105);
-  font-weight: bold;
+  display: inline-block;
+  width: 200px;
+  padding: 10px;
+  font-size: 0.9em;
+  text-align: right;
+  padding-right: 20px;
+  color: #5c5c5c;
 }
 
-/* В И Д Е О У Р О К И */
+.author-article {
+  display: flex;
+  width:  550px;
+  padding: 10px;
+  font-size: 0.9em;
+}
+
+.name-article-head {
+  display: flex;
+  width: 900px;
+  padding: 10px;
+  padding-left: 20px;
+  color: #9e9e9e;
+}
+
+.data-article-head {
+  display: inline-block;
+  width: 200px;
+  padding: 10px;
+  font-size: 0.9em;
+  text-align: right;
+  padding-right: 20px;
+  color: #9e9e9e;
+}
+
+.author-article-head {
+  display: flex;
+  width:  550px;
+  padding: 10px;
+  font-size: 0.9em;
+  color: #9e9e9e;
+}
+
+.table-row-head {
+  border-bottom: 1px solid rgb(232, 245, 253);
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  max-width: 1200px;
+  padding-bottom: 10px;
+  padding-top: 5px;
+}
+
+.table-row:hover {
+  border-radius: 30px;
+  background-color: rgb(211, 233, 248);
+  border-bottom: 1px solid rgb(232, 245, 253);
+}
+
+.table-row a:hover {
+  color: rgb(6, 0, 58);
+}
+
+/*В   И   Д   Е   О   У   Р   О   К   И */
 
 
 .container {
