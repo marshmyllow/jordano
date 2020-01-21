@@ -25,13 +25,21 @@ body {
   margin: 0;
   padding: 0;
   font-size: 20px;
+  color: rgb(28, 19, 63);
 }
 
 a {
   text-decoration: none;
 }
 
-.header {
+.active-block {
+  background: rgba(255, 255, 255, 0.274);
+  border-radius: 15px;
+  padding: 10px;
+  display: inline;
+}
+
+.page-header {
   position: relative;
   background: linear-gradient(101.91deg, #B36DB9 13.47%, #7758F2 88.17%);
   box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.5);
@@ -74,10 +82,6 @@ a {
   white-space: nowrap;
 }
 
-/* .nav-list .li3 {
-  margin-right:90px;
-} */
-
 .nav-list a {
   text-decoration: none;
   color:white;
@@ -96,7 +100,6 @@ a {
 }
 
 h1 {
-  display: block;
   margin: 50px 0px 0px 70px;
   font-family: 'Montserrat', sans-serif;
   font-weight: 800;
@@ -116,10 +119,8 @@ h2 {
 }
 
 .promo p {
-  display: block;
   font-family: 'Lora', sans-serif;
   font-weight: 400;
-  color: rgb(48, 34, 105);
   font-size: 1.05em;
   margin: 30px 70px 10px 70px;
 }
@@ -133,33 +134,17 @@ h2 {
   font-size: 1em;
   line-height: 30px;
   color: rgb(163, 163, 163);
+  
 }
 
 .advice p {
+  color: #422F8E;
   display: block;
   max-width: 400px;
   margin: 10px 70px 20px 70px;
   font-family: 'Lora', sans-serif;
   font-weight: 800;
   font-size: 1.15em;
-  color: rgb(81, 65, 145);
-}
-
-/* W  I  K  I */
-
-
-.active-wiki a {
-  position: relative;
-  z-index: 1;
-}
-
-.active-block-wiki {
-  position: absolute;
-  top: 19px;
-  width: 85px;
-  height: 40px;
-  border-radius: 30px;
-  background: rgba(255, 255, 255, 0.274);
 }
 
 .advice span{
@@ -171,6 +156,8 @@ h2 {
   color: rgb(104, 104, 104);
 }
 
+/* W  I  K  I */
+
 .wiki-list {
   margin: 80px 0px 100px 120px;
   float: left;
@@ -178,7 +165,7 @@ h2 {
   border-left: solid 5px rgb(56, 58, 199);
   color: #4E3B98;
   font-family: 'Montserrat', sans-serif;
-  font-size: 25px;
+  font-size: 1.25em;
   line-height: 40px;
   /* font-weight: bold; */
 }
@@ -188,7 +175,7 @@ h2 {
 }
 
 .headers-list span{
-  color: rgb(13, 3, 49);
+  color: rgb(28, 19, 63);
 }
 
 /*    T   A   B   L   E   */
@@ -293,7 +280,7 @@ h2 {
 
 .table-row:hover {
   border-radius: 30px;
-  background-color: rgb(211, 233, 248);
+  background-color: rgb(240, 249, 255);
   border-bottom: 1px solid rgb(232, 245, 253);
 }
 
@@ -319,14 +306,13 @@ h2 {
   font-family: 'Lora';
   font-size: 0.90em;
   padding: 40px 60px 40px 60px;
-  color: #333333;
+  color: rgb(28, 19, 63);
 }
 
 .main-block-article strong {
   font-size: 1.15em;
   color: rgb(94, 82, 143);
   font-weight: bold;
-
 }
 
 /*В   И   Д   Е   О   У   Р   О   К   И */
@@ -341,15 +327,6 @@ h2 {
   z-index: 1;
 }
 
-.active-block {
-  position: absolute;
-  top: 19px;
-  margin-left: 87px;
-  width: 180px;
-  height: 40px;
-  border-radius: 30px;
-  background: rgba(255, 255, 255, 0.274);
-}
 
 .nav-list a:hover {
   color: rgb(55, 39, 117);
